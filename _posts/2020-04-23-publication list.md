@@ -4,7 +4,7 @@ title:      Publication List
 subtitle:   论文
 date:       2020-04-24
 author:     吴锴
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
     - satellite
