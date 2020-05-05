@@ -86,3 +86,11 @@ http://mailman.ucar.edu/pipermail/es_jobs_net/2019-September/thread.html
 
 #### cartopy的投影设置
 https://scitools.org.uk/cartopy/docs/latest/crs/projections.html
+
+#### ProPlot的设置
+https://proplot.readthedocs.io/en/latest/index.html
+
+#### wrf-python
+https://wrf-python.readthedocs.io/en/latest/plot.html
+
+
