@@ -93,4 +93,6 @@ https://proplot.readthedocs.io/en/latest/index.html
 #### wrf-python
 https://wrf-python.readthedocs.io/en/latest/plot.html
 
+#### proj4出错的修正方式
+https://blog.csdn.net/runtuandme/article/details/103899726
 
