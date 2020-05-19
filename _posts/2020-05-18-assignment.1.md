@@ -12,8 +12,9 @@ tags:
 # How much does the biogenic volatile organic compounds emitted from terrestrial system account for summertime ozone pollution in China?
 
 # Introduction
-Biogenic volatile organic compound (BVOC) emissions from terrestrial ecosystems (especially broadleaf evergreen trees) are recognized to play an essential role in global carbon cycle and climate change. Globally, the BVOC emissions are about 10 larger than the anthropogenic VOC (AVOC) emissions, which means that planting trees without type selection will lead severe air pollution in urban areas (Figure 1). And BVOC emissions have significant impacts on the oxidation capacity in the atmosphere due to its large quantity and high reactivity. BVOC such as isoprene and monoterpene undergo rapid oxidation in the atmosphere then forms the air pollutants tropospheric ozone and biogenic secondary organic aerosol (BSOA) and could therefore cause damage to human health and vegetation growth.
+Biogenic volatile organic compound (BVOC) emissions from terrestrial ecosystems (especially broadleaf evergreen trees) are recognized to play an essential role in global carbon cycle and climate change. Globally, the BVOC emissions are about 10 larger than the anthropogenic VOC (AVOC) emissions, which means that planting trees without type selection will lead severe air pollution in urban areas (Figure 1 & 2 shown below). And BVOC emissions have significant impacts on the oxidation capacity in the atmosphere due to its large quantity and high reactivity. BVOC such as isoprene and monoterpene undergo rapid oxidation in the atmosphere then forms the air pollutants tropospheric ozone and biogenic secondary organic aerosol (BSOA) and could therefore cause damage to human health and vegetation growth.
 ![CMAQ-structure](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/acp-19-12195-2019-f10.jpg)
+![CMAQ](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/3.png)
 
 
 # Who should pay attention to BVOC?
@@ -25,7 +26,9 @@ In the present work by Wu et al.(2020), biogenic VOC emissions from China in 201
 ![BVOCspatialdistribution](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4.png)
 
 # The impact of BVOC emission on ozone
-The effects of BVOC emissions on ozone was investigated using the WRF-CMAQ modeling system. Three parallel scenarios were developed to assess the impact of BVOC emissions on China's ozone formation in July 2017. Biogenic emissions were estimated at 23.54 Tg/yr, with a peak in the summer and decreasing from southern to northern China. The high BVOC emissions across eastern and southwestern China increased the surface ozone levels, particularly in the BTH (Beijing-Tianjin-Hebei), SCB (Sichuan Basin), YRD (Yangtze River Delta) and central PRD (Pearl River Delta) regions, with increases of up to 47 µg/m3 due to the sensitivity of VOC-limited urban areas. 
+The effects of BVOC emissions on ozone was investigated using the WRF-CMAQ modeling system. Three parallel scenarios were developed to assess the impact of BVOC emissions on China's ozone formation in July 2017. Biogenic emissions were estimated at 23.54 Tg/yr, with a peak in the summer and decreasing from southern to northern China. 
+![ozone](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/6.png)
+The high BVOC emissions across eastern and southwestern China increased the surface ozone levels, particularly in the BTH (Beijing-Tianjin-Hebei), SCB (Sichuan Basin), YRD (Yangtze River Delta) and central PRD (Pearl River Delta) regions, with increases of up to 47 µg/m3 due to the sensitivity of VOC-limited urban areas. 
 ![ozoneimpacts](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/7.png)
 
 # Highlights
