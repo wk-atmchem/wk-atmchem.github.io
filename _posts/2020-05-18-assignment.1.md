@@ -30,3 +30,12 @@ The effects of BVOC emissions on ozone was investigated using the WRF-CMAQ model
 
 # Highlights
 This work updates the BVOC emissions inventory through high resolution satellite data and numerical models, which promote our understanding of biogenic emission’s role in air pollution. Additionally, it also points out that the control of biogenic VOC emission can’t be neglected by the policymakers when determining the air quality improvements in China.
+
+# Reference
+[1] China Forestry Bureau (CFB), 2014. China Forestry Database. http://www.forestry.gov.cn/data.html 
+
+[2] Chen, C., Park, T., Wang, X., Piao, S., Xu, B., Chaturvedi, R.K., Fuchs, R., Brovkin, V., Ciais, P., Fensholt, R., Tømmervik, H., Bala, G., Zhu, Z., Nemani, R.R., Myneni, R.B., 2019. China and India lead in greening of the world through land-use management. Nat. Sustain. 2, 122–129.
+
+[3] Chen, W.H., Guenther, A.B., Wang, X.M., Chen, Y.H., Gu, D.S., Chang, M., Zhou, S.Z., Wu, L.L., Zhang, Y.Q., 2018. Regional to global biogenic isoprene emission responses to changes in vegetation from 2000 to 2015. J. Geophys. Res. Atmos. 123, 3757–3771. 
+
+[4] Wu, K., Yang, X., Chen, D., Gu, S., Lu, Y., Jiang, Q., et al. (2020). Estimation of biogenic VOC emissions and their corresponding impact on ozone and secondary organic aerosol formation in China. Atmospheric Research, 231, 104656.
