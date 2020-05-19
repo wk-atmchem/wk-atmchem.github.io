@@ -2,7 +2,7 @@
 layout:     post
 title:      BVOC impacts on ozone pollution in China
 subtitle:   BVOC impacts on ozone pollution in China 
-date:       2020-04-22
+date:       2020-05-18
 author:     Kai Wu
 header-img: img/cmaq-tdep.png
 catalog: true
