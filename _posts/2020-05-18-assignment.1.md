@@ -21,6 +21,8 @@ It is critical for farmers, environmental policymakers in environmental protecti
 
 # The BVOC emission in China
 In the present work by Wu et al.(2020), biogenic VOC emissions from China in 2017 were estimated based on the Model of Emissions of Gases and Aerosols from Nature (MEGAN). The distribution pattern of BVOC in spring and autumn is quite consistent and mainly concentrated in southern China due to the relatively dense vegetation cover in southern China. Additionally, decreasing temperature and solar radiation from south to north contribute to the distribution of isoprene emissions in southern China. In summer, eastern China has high temperatures, intense radiation and vigorous forest growth, subsequently resulting in obviously higher BVOC emissions (Figure 2 & 3).
+![PFTdistribution](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/10.png)
+![BVOCspatialdistribution](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4.png)
 
 # The impact of BVOC emission on ozone
 The effects of BVOC emissions on ozone was investigated using the WRF-CMAQ modeling system. Three parallel scenarios were developed to assess the impact of BVOC emissions on China's ozone formation in July 2017. Biogenic emissions were estimated at 23.54 Tg/yr, with a peak in the summer and decreasing from southern to northern China. The high BVOC emissions across eastern and southwestern China increased the surface ozone levels, particularly in the BTH (Beijing-Tianjin-Hebei), SCB (Sichuan Basin), YRD (Yangtze River Delta) and central PRD (Pearl River Delta) regions, with increases of up to 47 µg/m3 due to the sensitivity of VOC-limited urban areas. 
