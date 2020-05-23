@@ -20,6 +20,8 @@ Response#1:In the present study, we did not apply data assimilation or nudging f
 ## model results validation
 Comment:It is not known how well the model represents key factors, such as the magnitude of the UHI, differences in boundary layer height between the city and outside of the city, and winds in the city core that will affect the conclusions drawn in this study. The authors need to include key results from that study that demonstrate the model performs reasonably well in representing observed temperature and winds in the urban area. Readers need to know if there are sufficient observations to verify the meteorological model predictions, otherwise, the present study is simply more of a modeling exercise that may or may not represent the true impact of the UHI on air quality predictions.
 
+Response: In Ryu and Baik (2012), the simulated meteorological variables are evaluated against observation dataset. The WRF-SNUUCM coupled model showed satisfactory performances in reproducing the diurnal variations of observed wind and temperature both in the city core and outside the core. The PBL height is reasonably well simulated by the model as compared with that observed in an urban site and that observed in a rural site (~50 km away from the urban core) although the validation result is not given in Ryu and Baik (2012). Note that the YSU PBL scheme showed a better performance in simulating PBL height in the urban site than the MYJ PBL scheme.
+
 ## emission inventory adjustment
 Comment: Is base year of emission inventory 2007 and does it need to be adjusted (projected) to 2008 level? I thought the episode in 2010 was simulated in this study.
 
