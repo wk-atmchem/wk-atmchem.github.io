@@ -20,6 +20,11 @@ Response#1:In the present study, we did not apply data assimilation or nudging f
 ## model results validation
 Comment:It is not known how well the model represents key factors, such as the magnitude of the UHI, differences in boundary layer height between the city and outside of the city, and winds in the city core that will affect the conclusions drawn in this study. The authors need to include key results from that study that demonstrate the model performs reasonably well in representing observed temperature and winds in the urban area. Readers need to know if there are sufficient observations to verify the meteorological model predictions, otherwise, the present study is simply more of a modeling exercise that may or may not represent the true impact of the UHI on air quality predictions.
 
+## emission inventory adjustment
+Comment: Is base year of emission inventory 2007 and does it need to be adjusted (projected) to 2008 level? I thought the episode in 2010 was simulated in this study.
+
+Response:We chose an ozone episode occurred in 2010, but an emission inventory in 2010 is not available at present. Under the present circumstances, the gridded and speciated hourly anthropogenic emission data are derived from the emission inventory in 2007. The emission data based on the emission inventory in 2008 are not yet established, but the total annual emissions of pollutants in 2008 are available. To update the emission data with the up-to-date information, the amounts of NOx (VOC) emitted are adjusted according to the ratio of the total annual emissions of NOx (VOC) in 2008 to those in 2007. We conclude that this is the best way we can do at present. Following your comment, this part is clarified in the revised manuscript.
+
 ## model uncertainty from parameterization selection
 Comment:It is not clear how this effect compares to other uncertainties in air quality predictions. For example, choice of PBL parameterization could also introduce differences in ozone concentrations and uncertainties in emission inventories will impact predictions of ozone. How does the impact of the UHI compare to other commonly known uncertainties in air quality predictions? Some context is needed.
 
