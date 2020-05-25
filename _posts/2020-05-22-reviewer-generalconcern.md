@@ -10,6 +10,15 @@ tags:
     - satellite
     - models
 ---
+# About innovation of the paper
+**Comment:**This methodology has been presented in previous work and the nighttime impact of urbanization has been well documented in the literature. For instance, the paper by Li et al (“Achieving accurate simulations of urban impacts on ozone at high resolution”, ERL, 9, 2014) introduced similar configurations (WRF-Chem including anthropogenic emissions, with and without urbanization) and used them to derive impacts of urbanization on air quality by analyzing the differences in the simulated fields between the two scenarios. Although the region and the period of time considered in this manuscript are different, the main idea and the nighttime impact are similar.
+
+**Response#1:**While this study shows some similarity in research idea with previous literature, it extend this research topic in that 
+**1)** it includes discussion  on the impact of land surface changes on total and speciated PM2.5 concentration, which has been seldom studied, 
+**2)** it focuses on the Southern California region where such research is limited but necessary given the high pollutant loads, and 
+**3)** it incorporates accurately resolved land surface data. 
+We added a few sentences in the last paragraph of introduction section to clarify these points.
+
 
 # About model simulation
 ## data assimilation and nudging applied
