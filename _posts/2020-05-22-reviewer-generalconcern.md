@@ -11,21 +11,26 @@ tags:
     - models
 ---
 # About innovation of the paper
+
 **Comment:**This methodology has been presented in previous work and the nighttime impact of urbanization has been well documented in the literature. For instance, the paper by Li et al (“Achieving accurate simulations of urban impacts on ozone at high resolution”, ERL, 9, 2014) introduced similar configurations (WRF-Chem including anthropogenic emissions, with and without urbanization) and used them to derive impacts of urbanization on air quality by analyzing the differences in the simulated fields between the two scenarios. Although the region and the period of time considered in this manuscript are different, the main idea and the nighttime impact are similar.
 
-**Response#1:**While this study shows some similarity in research idea with previous literature, it extend this research topic in that 
-**1)** it includes discussion  on the impact of land surface changes on total and speciated PM2.5 concentration, which has been seldom studied, 
-**2)** it focuses on the Southern California region where such research is limited but necessary given the high pollutant loads, and 
+**Response#1:**While this study shows some similarity in research idea with previous literature, it extend this research topic in that
+
+**1)** it includes discussion  on the impact of land surface changes on total and speciated PM2.5 concentration, which has been seldom studied,
+
+**2)** it focuses on the Southern California region where such research is limited but necessary given the high pollutant loads, and
+
 **3)** it incorporates accurately resolved land surface data. 
 We added a few sentences in the last paragraph of introduction section to clarify these points.
 
 **Comment:**How exactly does your experimental setup treat the “wide heterogeneity of urban land surface processes” compared to existing studies? A large number of studies already exist using model
 systems (e.g. WRF) which include urban canopy models with varying complexity (SLUCM, BEP), which consider a similar level of heterogeneity than your experiments? Please discuss your statement.
+
 **Response#1:**While previous studies have used models with different levels of complexity, most of them failed to incorporate real-world land surface property data as input. They used default WRF settings for land surface properties such as building morphology, albedo, vegetation fraction, which either is out of date, or lacks spatial heterogeneity. By contrast, in this study we use NLCD for land cover type and impervious fraction, satellite-retrieved data for albedo, vegetation fraction and leaf area index, and GIS-based data for building morphology, which resolves spatial heterogeneity of land surface properties, and better predicts regional weather and air quality. The default version of the WRF/UCM assumes that many land cover properties are spatially homogeneous, which is not realistic. 
 
 **Comment:**It should be made clear which new aspects you aim to analyze compared to the studies mentioned above. In my opinion simply turning urban on/off does not reveal significantly new insights. Further the term “human disturbance” is unclear, as this would also involve air quality modifications.
-**Response#1:**As we mentioned in the introduction, there are limited studies on the effect of land surface change via urbanization on regional air quality, most of which do not resolve the real-world spatial heterogeneity. In addition, there are several recent studies by our group, which incorporate satellite data for land surface characterization within Southern California, and quantifies the effect of land surface changes on regional climate including temperature and wind speed. Thus, this study combines the research idea of these two types of studies together, and aims to characterize the influence of land surface changes via historical urbanization on urban meteorology and air quality in Southern California using highly resolved land surface characterization.
 
+**Response#1:**As we mentioned in the introduction, there are limited studies on the effect of land surface change via urbanization on regional air quality, most of which do not resolve the real-world spatial heterogeneity. In addition, there are several recent studies by our group, which incorporate satellite data for land surface characterization within Southern California, and quantifies the effect of land surface changes on regional climate including temperature and wind speed. Thus, this study combines the research idea of these two types of studies together, and aims to characterize the influence of land surface changes via historical urbanization on urban meteorology and air quality in Southern California using highly resolved land surface characterization.
 
 # About the motivation of the paper
 **comment:** I am aware that these model systems are not suitable for applied urban planning, but however the currently existing urban canopy models in WRF-Chem (and other models), together with high resolution datasets for both emission and urban morphology do offer a framework for a number of different scenarios in the context of climate change/UHI mitigation. Recent studies have been analyzing the impact of highly reflecting building materials, urban greening or varying building density for a number urban areas. These aspects should also be possible with this model system and worth being discussed in order to increase the scientific substance of that work and highlight the new contribution to the field. In light of the scope of the journal, it should also be worked out more detailed what are the implications for atmospheric science in general rather than purely investigating local/regional aspects.
@@ -36,6 +41,7 @@ systems (e.g. WRF) which include urban canopy models with varying complexity (SL
 ## model input selection
 
 **Comment:**Why the author choose the NLCD data? What is the additional gain of a 30 m land surface classification which has to be scaled to 2 km model resolution?
+
 **Response#1:**We chose to use 30 m-resolution 33-category NLCD mainly for two reasons. First, urban land use varies at spatial scales on the order of 10s of meters. So it works best to define land use at spatial scales of 10s of m, and then aggregate to the model grid resolution. It would be difficult to detect land use using data at 2km resolution. Second, the 30 m-resolution land use dataset has 33 categories of land use type, which divides urban type into three sub-types: low-intensity residential, highintensity residential, and industrial/commercial. This allows different parameterizationsfor different sub- urban types, which better characterize land surface properties.
 
 
@@ -48,6 +54,7 @@ systems (e.g. WRF) which include urban canopy models with varying complexity (SL
 **Comment:** On which basis authors claim that the period chosen is representative of summer conditions in Southern California?
 
 **Response#1:**Typical summer days in Southern California are clear or mostly sunny days without precipitation. The chosen simulation period has these characteristics. We added a figure in the supplemental information (Figure S8) showing the diurnal cycle of averaged (observed) near surface air temperature over JJA (June, July and August) and over our simulation period. We also added a sentence in the main paper.
+
 “This simulation period is chosen as representative of typical summer days in Southern California,
 which are generally clear or mostly sunny without precipitation. A comparison of observed diurnal
 cycles for average near surface air temperatures over JJA (June, July and August) versus over our
@@ -82,7 +89,6 @@ sensitive to the change in the NOx emission than to the change in the VOC emissi
 So, the changes in precursor emissions do not change the conclusions drawn in this study. In summary, the changes in O3 concentration owing to urban land-surface forcing are significant as compared with those owing to the choice of different PBL parameterization schemes and those owing to the changes in O3 precursor emissions.
 
 **Response2:**Note that the results reported in this paper are based on model simulations and are thus dependent on how accurately the regional climate–chemistry model characterizes the climate–chemistry system (e.g., meteorology, surfaceatmosphere coupling, and atmospheric chemical reactions). Results may be dependent on model configuration (e.g.,physical and chemical schemes), land surface characterizations (e.g., satellite data from MODIS, or default dataset available in WRF), and emission inventories (e.g., anthropogenic emission inventories from CARB, SCAQMD, or NEI). In addition, since irrigation is not included in the nonurban scenario, simulated meteorology in the nonurban scenario is dependent on assumed initial soil moisture conditions. In this study, we adopt the initial soil moisture conditions from Vahmani et al. (2016) for consistency with our previous work. Soil moisture initial conditions are based on values from 6-month simulations without irrigation
-
 
 # About further discussion
 ## limitation of case study
