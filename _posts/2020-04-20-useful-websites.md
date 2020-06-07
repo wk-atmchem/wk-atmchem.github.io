@@ -25,6 +25,9 @@ https://github.com/CMASCenter/Spatial-Allocator/blob/master/docs/User_Manual/REA
 
 https://github.com/CMASCenter/Spatial-Allocator/tree/master/src/libs
 
+#### 向CMAQ中加入tracer的教程
+https://github.com/USEPA/CMAQ/blob/master/DOCS/Users_Guide/Tutorials/CMAQ_UG_tutorial_tracers.md
+
 #### 利用GEOS-Chem制作CMAQ初始场和边界场
 
 http://wiki.seas.harvard.edu/geos-chem/index.php/Linking_GEOS-Chem_to_CMAQ	
@@ -49,6 +52,9 @@ https://www.wrapair2.org/ozone.aspx
 #### 查询模型的天数
 
 https://www.haomeili.net/RiLi/DiJiZhouDiJiTian?date=2016-12-19
+
+#### MEGAN2.1编译及源代码修正
+https://forum.cmascenter.org/t/megan-2-1-installation-error/727
 
 # WRF相关
 
