@@ -69,6 +69,23 @@ https://esgf-node.llnl.gov/search/cmip6/
 
 https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=228526205#WRF/WRF-Chem-Step7.You're(FINALLY)readytorunWRF-Chem
 
+# FLEXPART相关
+
+#### training courses
+https://www.flexpart.eu/wiki/Events
+
+#### github的相关资源
+https://github.com/sajinh/flx_wrf2
+
+https://github.com/wimvanderbauwhede/flx_wrf2/
+
+https://github.com/dingwell/flx_wrf2
+
+https://github.com/wimvanderbauwhede/flx_wrf2
+
+
+
+
 # 卫星遥感相关
 
 #### NASA的OMI NO2柱浓度可视化网站
