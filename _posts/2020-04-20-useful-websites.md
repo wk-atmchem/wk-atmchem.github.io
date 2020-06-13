@@ -65,6 +65,9 @@ https://www2.mmm.ucar.edu/wrf/users/download/get_sources.html
 #### CMIP6数据下载
 https://esgf-node.llnl.gov/search/cmip6/
 
+#### 可用于驱动WRF的数据及下载方式
+https://www2.mmm.ucar.edu/wrf/users/download/free_data.html
+
 #### 哈佛WRF-Chem教程
 
 https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=228526205#WRF/WRF-Chem-Step7.You're(FINALLY)readytorunWRF-Chem
