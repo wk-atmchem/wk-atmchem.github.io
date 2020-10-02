@@ -72,6 +72,10 @@ https://www2.mmm.ucar.edu/wrf/users/download/free_data.html
 
 https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=228526205#WRF/WRF-Chem-Step7.You're(FINALLY)readytorunWRF-Chem
 
+#### CMAQ的AERO07机制相比于AERO06机制的更新
+https://github.com/USEPA/CMAQ/blob/master/DOCS/Release_Notes/aero7_overview.md
+
+
 # FLEXPART相关
 
 #### training courses
