@@ -106,7 +106,14 @@ Congratulations! You have successfully installed netCDF!
 通过pwd命令得知当前文件夹的路径
 以本文为例，路径为/home/kai/lib/new/netcdf-f-4.4.5-intel
 
-6.然后我们回到解压出来的netcdf-f文件夹下执行编译(注意：是解压得到的netcdf-f文件夹  而不是我们自己通过mkdir创建的文件夹)
+6.`vi ~/.bashrc`
+为了保证编译顺利  进入bashrc文件 并把netcdf-c的路径加入到LD_LIBRARY当中 
+`export LD_LIBRARY_PATH=/home/kai/lib/new/netcdf-c-4.7.0-intel/lib:$LD_LIBRARY_PATH` 
+然后保存修改 
+`:wq` 
+注意：如果本步骤未执行，则可能会导致下一步出现"cannot compute sizeof"的报错
+
+7.然后我们回到解压出来的netcdf-f文件夹下执行编译(注意：是解压得到的netcdf-f文件夹  而不是我们自己通过mkdir创建的文件夹)
 
 利用以下命令执行编译
 
@@ -115,11 +122,11 @@ Congratulations! You have successfully installed netCDF!
 注意点：在编译netcdf-f的时候，我们需要调用编译好的netcdf-c的2个库的位置LDFLAGS和CPPFLAGS来分别代表地址。因此，我们需要先编译netcdf-c，再编译netcdf-f。
 
 
-7.`make check`
+8.`make check`
 执行make check后  经过一系列Testuite Summary之后出现下图即为成功
 ![makecheck](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/makecheck.png)
 
-8.`make install`
+9.`make install`
 执行make install后  出现下图即为成功安装
 ![makeinstall](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/makeinstall.png)
 
