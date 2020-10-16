@@ -70,6 +70,9 @@ https://www2.mmm.ucar.edu/wrf/users/download/get_sources.html
 #### CMIP6数据下载
 https://esgf-node.llnl.gov/search/cmip6/
 
+#### 修改WRF的下垫面
+https://zhuanlan.zhihu.com/p/118510946
+
 #### 可用于驱动WRF的数据及下载方式
 https://www2.mmm.ucar.edu/wrf/users/download/free_data.html
 
