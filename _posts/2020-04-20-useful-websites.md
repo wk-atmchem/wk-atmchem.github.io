@@ -138,3 +138,8 @@ https://wrf-python.readthedocs.io/en/latest/plot.html
 #### proj4出错的修正方式
 https://blog.csdn.net/runtuandme/article/details/103899726
 
+
+# Journal Special Issue 相关
+
+#### CalNEX field campaign
+https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)2169-8996.CALNEX1
