@@ -92,8 +92,7 @@ After the revision finished, use the command of `:wq` for keeping the changes ma
 This command is used to make the execute file.
 It should be noted that several mechnisms are available for this make command, as shown below. Since my work mainly use the SAPRC07 mechnism, here we choose S07TC_AE6__GEOS5 option.
 ![4mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4mozart.png)
-
-注意：如果本步骤未执行，则可能会导致下一步出现"cannot compute sizeof"的报错
+![5mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/5mozart.png)
 
 7.然后我们回到解压出来的netcdf-f文件夹下执行编译(注意：是解压得到的netcdf-f文件夹  而不是我们自己通过mkdir创建的文件夹)
 
