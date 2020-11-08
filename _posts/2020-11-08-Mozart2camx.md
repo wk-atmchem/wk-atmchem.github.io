@@ -94,13 +94,17 @@ It should be noted that several mechnisms are available for this make command, a
 ![4mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4mozart.png)
 ![5mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/5mozart.png)
 
-7.然后我们回到解压出来的netcdf-f文件夹下执行编译(注意：是解压得到的netcdf-f文件夹  而不是我们自己通过mkdir创建的文件夹)
+7.Then we need to compile another execute file which is utilized to convert netcdf format mozart file to IOAPI format file.
+`cd ../ncf2ioapi_mozart`
 
-利用以下命令执行编译
+`cp Makefile.NCF2IOAPI Makefile`
 
-`./configure --prefix=/home/kai/lib/new/netcdf-f-4.4.5-intel LDFLAGS="-L/home/kai/lib/new/netcdf-c-4.7.0-intel/lib" CPPFLAGS="-I/home/kai/lib/new/netcdf-c-4.7.0-intel/include" CC=icc FC=ifort` 
+`vi Makefile`
+Then revise the Makefile accordingly (which is almost same as the Makefile in Step 5)
 
-注意点：在编译netcdf-f的时候，我们需要调用编译好的netcdf-c的2个库的位置LDFLAGS和CPPFLAGS来分别代表地址。因此，我们需要先编译netcdf-c，再编译netcdf-f。
+`make`
+Then the execute file will be produced.
+![6mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/6mozart.png)
 
 
 8.`make check`
