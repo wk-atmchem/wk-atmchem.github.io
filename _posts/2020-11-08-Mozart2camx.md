@@ -13,9 +13,8 @@ tags:
 ---
 
 # Introduction of ICON and BCON in regional air quality modeling
-The initial and boundary conditions (hereafter referred as ICON and BCON, respectively) are essential components in air quality modeling especially for regional air quality models such as CMAQ, CAMx and WRF-Chem. In general, there are two choices can be adopted for generating initial and boundary conditions, as described below: 
+The initial and boundary conditions (hereafter referred as ICON and BCON, respectively) are essential components in air quality modeling especially for regional air quality models such as CMAQ, CAMx and WRF-Chem. In general, there are two choices can be adopted for generating initial and boundary conditions, as described below:
 (I)  use clean atmosphere (In CMAQ model, the choice (I) is the default option which means the profile option in ICON and BCON scripts.) 
-
 (II) use global model's output 
 
 
@@ -72,8 +71,8 @@ Download the mozart2camx-26feb19.tgz file from the website http://www.camx.com/d
 Then you will get the package of mozart2camx in the current path，as shown in the Figure below:
 ![1mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/1mozart.png)
 
-2.`cd netcdf-fortran-4.4.5` 进入netcdf-fortran-4.4.5文件夹  然后`ls`查看当前文件夹下的文件 发现内部结构如下
-![netcdf-ff2](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/netcdff2.png)
+2.`cd mozart2camx_v3.2.1/` enter the path and use the command of `ls` to look at the framework of this program, as shown below:
+![2mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/2mozart.png)
 
 3.`mkdir ../netcdf-f-4.4.5-intel` 
 
