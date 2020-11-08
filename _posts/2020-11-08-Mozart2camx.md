@@ -74,22 +74,25 @@ Then you will get the package of mozart2camx in the current path，as shown in t
 2.`cd mozart2camx_v3.2.1/` enter the path and use the command of `ls` to look at the framework of this program, as shown below:
 ![2mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/2mozart.png)
 
-3.`mkdir ../netcdf-f-4.4.5-intel` 
+3.`cd src` 
 
-这步即为在解压出来的netcdf-f目录的上一层目录创建一个名为netcdf-f-4.4.5-intel的文件夹
+enter the src path
 
-4.`cd ../netcdf-f-4.4.5-intel`
-进入步骤3创建的名为netcdf-f-4.4.5-intel的文件夹
+4.`cp Makefile.mzrt2camx Makefile`
 
-5.`pwd`
-通过pwd命令得知当前文件夹的路径
-以本文为例，路径为/home/kai/lib/new/netcdf-f-4.4.5-intel
+Because we will use the `make` command to generate the execute file, here we copy the Makefile.mzrt2camx to Makefile.
 
-6.`vi ~/.bashrc`
-为了保证编译顺利  进入bashrc文件 并把netcdf-c的路径加入到LD_LIBRARY当中 
-`export LD_LIBRARY_PATH=/home/kai/lib/new/netcdf-c-4.7.0-intel/lib:$LD_LIBRARY_PATH` 
-然后保存修改 
-`:wq` 
+5.`vi Makefile`
+Enter the Makefile and revise it accordingly based on your compiler and settings of netcdf, ioapi libs.
+For example, in my HPC system, the revised Makefile is shown below:
+![3mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/3mozart.png)
+After the revision finished, use the command of `:wq` for keeping the changes made in Makefile.
+
+6.`make S07TC_AE6__GEOS5`
+This command is used to make the execute file.
+It should be noted that several mechnisms are available for this make command, as shown below. Since my work mainly use the SAPRC07 mechnism, here we choose S07TC_AE6__GEOS5 option.
+![4mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4mozart.png)
+
 注意：如果本步骤未执行，则可能会导致下一步出现"cannot compute sizeof"的报错
 
 7.然后我们回到解压出来的netcdf-f文件夹下执行编译(注意：是解压得到的netcdf-f文件夹  而不是我们自己通过mkdir创建的文件夹)
