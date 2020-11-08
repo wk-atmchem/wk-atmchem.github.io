@@ -11,7 +11,7 @@ tags:
     - models
 ---
 
-# 2020.5.24
+# 2020.05.24
 1.发现NCEP产品中有North American Regional Reanalysis (NARR) dataset，可考虑后续利用该数据作为驱动WRF的初始场和边界场
 
 2.地表温度数据可以使用 California Irrigation Management Information System (CIMIS)的气温数据
@@ -29,11 +29,16 @@ Observations are obtained from MesoWest (https://mesowest.utah.edu/), which are 
 7.A good introduction flow is as follows:
 The flow of the introduction section is as follows. First, we point out that urbanization has led to profound modification of the land surface. We then explain how changes in land surface properties can affect regional meteorological fields such as surface and air temperature, wind speed and PBL height. We go on to demonstrate how those changes in meteorology due to land surface modification can in turn affect air pollutant concentrations via different mechanisms. While there are a number of studies that have investigated the impacts of land surface changes on regional meteorology,limited studies have quantified the impact of land surface changes on regional air quality, especially for the Southern California region, which has a history of severe air pollutant problems. In addition, recent studies have made it possible to utilize satellite land surface data in model simulations, which better predict regional weather in urbanized regions, and urban versus nonurban differences. Thus, our study adopts the modified model configuration, and aims to characterize the influence of historical urbanization on urban meteorology and air quality in Southern California.
 
-# 2020.5.25
+# 2020.05.25
 1.工厂的污染物的排放可以通过EPA的网站下载
-Air pollutant emissions from large U.S. power plants are tracked hourly by EPA’s continuous emission monitoring systems (CEMS) database (https://ampd.epa.gov/ampd/).
+Air pollutant emissions from large U.S. power plants are tracked hourly by EPA’s continuous emission monitoring systems (CEMS) database (https://ampd.epa.gov/ampd/). 
+
 2.评估自上而下的NOx排放量的不确定性，通过bootstrapping方法来进行评估
 In order to quantify the uncertainty associated with the topdown NOX estimates, we use a bootstrapping technique to evaluate the sensitivity of the estimates to the selection of days.In this method, we randomly replace entire daily TROPOMI scenes with scenes from other days. We perform
 this random replacement 100 times to generate a distribution of estimates around the mean top-down NOX estimates.
 NOX bottom-up emissions data can be found here: https://www.epa.gov/airemissions-inventories/air-pollutant-emissions-trends-data. 
 Annual CEMS data from power plants can be downloaded here: https://ampd.epa.gov/ampd/. 
+
+# 2020.11.09
+1.CMAQv5.3中存在一个BCON时间步长的问题——要求输入数据为逐小时的时间步长，因此Mozart2camx得到的6小时一次的边界场无法被CMAQv5.3读取.
+From Christian Hogrefe (US EPA), any CMAQ version other than CMAQv5.3 does not require BC files to have hourly time steps. CMAQv5.3 did have that limitation but it was addressed in CMAQv5.3.1.
