@@ -70,5 +70,5 @@ Then revise the Makefile accordingly (which is almost same as the Makefile in St
 Then the execute file will be produced.
 ![6mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/6mozart.png)
 
-如果对于本文的编译过程有什么意见或者建议，欢迎您发邮件跟我交流(邮箱：wukaicuit@gmail.com)。
+If you have any questions about this post, please don't hesitate to reach out to me through emails (my email address：wukaicuit@gmail.com)。
 
