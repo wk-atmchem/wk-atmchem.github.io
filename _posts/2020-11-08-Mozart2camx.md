@@ -72,7 +72,7 @@ Then you will get the package of mozart2camx in the current path，as shown in t
 ![1mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/1mozart.png)
 
 2.`cd mozart2camx_v3.2.1/` enter the path and use the command of `ls` to look at the framework of this program, as shown below:
-![2mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/2mozart.png)
+![2mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/2mozart.jpg)
 
 3.`cd src` 
 
@@ -91,7 +91,7 @@ After the revision finished, use the command of `:wq` for keeping the changes ma
 6.`make S07TC_AE6__GEOS5`
 This command is used to make the execute file.
 It should be noted that several mechnisms are available for this make command, as shown below. Since my work mainly use the SAPRC07 mechnism, here we choose S07TC_AE6__GEOS5 option.
-![4mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4mozart.png)
+![4mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/4mozart.jpg)
 ![5mozart](https://raw.githubusercontent.com/wk-atmchem/wk-atmchem.github.io/master/img/5mozart.png)
 
 7.Then we need to compile another execute file which is utilized to convert netcdf format mozart file to IOAPI format file.
