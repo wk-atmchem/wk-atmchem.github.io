@@ -13,9 +13,11 @@ tags:
 ---
 
 # Introduction of ICON and BCON in regional air quality modeling
-The initial and boundary conditions (hereafter referred as ICON and BCON, respectively) are essential components in air quality modeling especially for regional air quality models such as CMAQ, CAMx and WRF-Chem. In general, there are two choices can be adopted for generating initial and boundary conditions, as described below:
+The initial and boundary conditions (hereafter referred as ICON and BCON, respectively) are essential components in air quality modeling especially for regional air quality models such as CMAQ, CAMx and WRF-Chem. In general, there are two choices can be adopted for generating initial and boundary conditions, as described below: 
 (I)  use clean atmosphere (In CMAQ model, the choice (I) is the default option which means the profile option in ICON and BCON scripts.) 
+
 (II) use global model's output 
+
 
 For specific air pollution episodes especially for significant contributions from regional transport (or long range transport), accurate boundary conditions are of great importantance in reproducing the epsides. Therefore, the option (II) is always the best choice for regional air quality modeling work. 
 
