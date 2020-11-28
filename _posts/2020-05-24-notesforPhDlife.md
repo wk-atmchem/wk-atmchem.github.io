@@ -2,8 +2,8 @@
 layout:     post
 title:      读博日记
 subtitle:   daily notes for research progress
-date:       2020-05-24
-author:     吴锴
+date:       2020-11-28
+author:     Kai Wu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
