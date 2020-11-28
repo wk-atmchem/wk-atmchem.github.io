@@ -53,6 +53,9 @@ https://www.tceq.texas.gov/airquality/airmod/project/pj_report_met.html
 
 https://www.wrapair2.org/ozone.aspx
 
+#### 能源基金会研究报告
+
+https://www.efchina.org/Reports-zh
 
 #### 查询模型的天数
 
