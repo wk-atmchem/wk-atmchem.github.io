@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      读博日记
+title:      博士期间每日工作纪要
 subtitle:   daily notes for work record
 date:       2020-11-28
 author:     Kai Wu
@@ -22,3 +22,15 @@ tags:
 (/GFPS8p/xyyang/wk/CMAQ-5.3.2/CCTM/scripts/run_cctm_SCB_ISAM_MEICtag.csh)  
 注意多个面源文件的EMIS_LABEL不可以简单写为AGR,TRA,IND等  
 2.从华电曹靖原处获取了正确的ISAM的四川盆地的mask文件  
+
+# 2020.11.30
+1.华电曹靖原给的ISAM的mask文件有问题——报错显示Fortran string too short,后来写了NCL脚本通过将该文件的变量值替换到原来我制作的有偏移的文件中，成功制作了正确的mask文件，为后续溯源工作的开展奠定了基础  
+2.ArcGIS当中如果需要修改属性表，需注意如下步骤：  
+首先，要添加列，可直接左上角添加，注意双精度，10位数  
+其次，要修改属性表的值，需要在GIS正上方找到编辑器，开启编辑器模式，进入属性表方可进行修改，否则属性表无法修改  
+
+明日计划  
+1.刘磊文章的润色  
+2.FNL数据的网盘  
+3.于雷环流场的反馈写到论文中  
+4.进行2035年的模拟  
