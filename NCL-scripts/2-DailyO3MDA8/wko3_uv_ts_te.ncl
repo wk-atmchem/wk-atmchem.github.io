@@ -28,7 +28,7 @@ draw_obs = True  ;;;;;True画图 False不画
   months	= "07"     ;月份
   var          = "O3"  ;变量
 
-  dir_O3   = "/GFPS8p/xyyang/wk/CMAQ-5.3.1/data/output_CCTM_"+year+"-"+months+"-BASE_cn3kmSCAES/"
+  dir_O3   = "/GFPS8p/xyyang/wk/nclwk/1206-plotMEIC/"
   dir_uv   = "/GFPS8p/xyyang/wk/ncljq/20200527_o3_uv/"
 
 ts = 3   ;起始时间   0-23
@@ -142,7 +142,7 @@ lat2 = 171  ;;;  lat1-181
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;读取数据
 ;O3模拟结果
-	f_o3 = systemfunc("ls " + dir_O3 + "CCTM_ACONC_"+ year +"-" + months + "-BASE_"+year+months+"*")
+	f_o3 = systemfunc("ls " + dir_O3 + "CCTM_SA_ACONC_2020-04-BASE_*")
     print(f_o3(0))  
     f_uv = systemfunc("ls " + dir_uv +"METCRO2D_"+ year +"*.nc")
     print(f_uv(0))
