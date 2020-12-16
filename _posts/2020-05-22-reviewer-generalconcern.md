@@ -117,3 +117,10 @@ The paper highlights one of the important factors, i.e. synoptic meteorological 
 **Comment:** Data and methodology: the description of methodology is insufficient.
 (1) Data and methodology: I think it would be nice to add the path (precise address) of the data center or website which the data are taken from.——需要说清楚监测或者再分析数据的来源 
 (2) Data and methodology: what is the horizontal and vertical resolution of the CHIMERE model?——模型的水平以及垂直分辨率 
+
+**Comment:** Results and discussion, section 3.2, d): Yes, indeed there is a strong westerly wind toward W-MED a few days before the episode. {It may transfer ozone and its precursors from other places such as eastern US, etc. towards this region (via longrange transport), but there is not enough evidence for that through this maps.} However, on the 26th and 27th of April (in the lowest panel of the left column in Fig. 4), there is a weak wind flow over W-MED due to the existence of a high pressure system.
+**含义** 尽管图中呈现了很强劲的西风，可能会将臭氧及前体物从美国东部通过长距离传输输送到盆地，但是仍然没有足够充分的证据可以体现该结论。此外，4月26和27日由于高压系统的存在MED西部风速较弱。
+
+**Comment:** Figure 3: Both omega and omega anomaly have the same messages; I would recommend the authors to keep only one of them. Units are missing. 
+**Comment:** Figure 4: Again, adding units would be recommendable. 
+**含义** 图表里的单位有缺失。
