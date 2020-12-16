@@ -101,3 +101,19 @@ So, the changes in precursor emissions do not change the conclusions drawn in th
 
 # About references
 **Comment:** References: I noticed at least one reference cited in the text that was not included in the reference list. The authors should check all references to make sure they are properly cited.
+
+
+
+# 2017-ACP
+## An investigation on the origin of regional springtime ozone episodes in the western Mediterranean
+**Comment:** 
+The paper highlights one of the important factors, i.e. synoptic meteorological system, controlling high ozone concentration episodes over Western Mediterranean (W-MED) and Central Europe (C-EU), during spring. The text is generally well written and clear. The time series plots of the observations clearly confirm there were two episodes in which ozone builds up during late April and early May in 2008 over most of the Mediterranean countries. However, when it comes to the proof of the argument, there are a number of statements and images repeating the same messages. The analysis of various parameters that are generated from different types of observations and models is a great idea, but unfortunately they are not always univocal. Therefore I think this paper needs a major revision. Particularly, I would encourage the authors to avoid misinterpreting the results of multiple sources. 
+
+**Comment:** The major concern I have with this paper, particularly in the result and discussion section, is that there is no clear focus on the two regions which are mentioned in the title (i.e. W-MED and C-EU). Furthermore, the mechanisms leading to ozone enhancement as a consequence of high pressure systems should be explained in more detail. 
+(I) One mechanism could be the accumulation of surface ozone which is produced through chemical reactions due to the stagnant air flow. 
+(II) Another one could be linked to ozone flux from the upper troposphere to the surface, which the authors have already tried to prove but without sufficient arguments. 
+
+
+**Comment:** Data and methodology: the description of methodology is insufficient.
+(1) Data and methodology: I think it would be nice to add the path (precise address) of the data center or website which the data are taken from.——需要说清楚监测或者再分析数据的来源 
+(2) Data and methodology: what is the horizontal and vertical resolution of the CHIMERE model?——模型的水平以及垂直分辨率 
