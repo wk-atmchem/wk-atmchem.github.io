@@ -31,11 +31,17 @@ tags:
 
 [9] 杨显玉,易家俊,吕雅琼,刘志红,王式功,吕世华,张小玲,吴锴,王浩霖. 成都市及周边地区严重臭氧污染过程成因分析[J].中国环境科学,2020
 
-[10] Wu, K., Yang, X., Chen, D., Gu, S., Lu, Y., Jiang, Q., et al. (2020). Estimation of biogenic VOC emissions and their corresponding impact on ozone and secondary organic aerosol formation in China. Atmospheric Research, 231, 104656.
+[10] Wu, K., Yang, X., Chen, D., Gu, S., Lu, Y., Jiang, Q., et al. (2020). Estimation of biogenic VOC emissions and their corresponding impact on ozone and secondary organic aerosol formation in China. Atmospheric Research, 231, 104656. 
 
-[11] Wu, K., Kang, P., Tie, X., Gu, S., Zhang, X., Wen, X., et al. (2020). Evolution and Assessment of Atmospheric Composition in Hangzhou and its Surrounding Areas during the G20 Summit. Aerosol and Air Quality Research. https://doi.org/10.4209/aaqr.2018.12.0481
+[11] Wu, K., Kang, P., Tie, X., Gu, S., Zhang, X., Wen, X., et al. (2020). Evolution and Assessment of Atmospheric Composition in Hangzhou and its Surrounding Areas during the G20 Summit. Aerosol and Air Quality Research. https://doi.org/10.4209/aaqr.2018.12.0481 
 
 [12] Yang, X., Wu, K., Wang, H., Liu, Y., Gu, S., Lu, Y., et al. (2020). Summertime ozone pollution in Sichuan Basin, China: Meteorological conditions, sources and process analysis. Atmospheric Environment, 226, 117392. 
+
+[13] Wang, K., Tong, Y., Gao, J., Gao, C., Wu, K., Yue, T., et al. (2020). Impacts of LULC, FDDA, Topo-wind and UCM schemes on WRF-CMAQ over the Beijing-Tianjin-Hebei region, China. Atmospheric Pollution Research. http://www.sciencedirect.com/science/article/pii/S1309104220303342 
+
+[14] Yan, D., Liu, T., Dong, W., Liao, X., Luo, S., Wu, K., et al. (2020). Integrating remote sensing data with WRF model for improved 2-m temperature and humidity simulations in China. Dynamics of Atmospheres and Oceans, 89, 101127. http://www.sciencedirect.com/science/article/pii/S0377026519300594 
+
+[15] Yang, X., Lu, Y., Zhu, X., He, J., Jiang, Q., Wu, K., et al. (2020). Formation and Evolution Mechanisms of Severe Haze Pollution in the Sichuan Basin, Southwest China. Aerosol and Air Quality Research, 20(11), 2557-2567. http://dx.doi.org/10.4209/aaqr.2020.04.0173 
 
 
 
