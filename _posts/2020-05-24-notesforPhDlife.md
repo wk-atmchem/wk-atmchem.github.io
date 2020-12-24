@@ -42,3 +42,8 @@ Annual CEMS data from power plants can be downloaded here: https://ampd.epa.gov/
 # 2020.11.09
 1.CMAQv5.3中存在一个BCON时间步长的问题——要求输入数据为逐小时的时间步长，因此Mozart2camx得到的6小时一次的边界场无法被CMAQv5.3读取.
 From Christian Hogrefe (US EPA), any CMAQ version other than CMAQv5.3 does not require BC files to have hourly time steps. CMAQv5.3 did have that limitation but it was addressed in CMAQv5.3.1.
+
+# 2020.12.23
+1.Python利用xlrd读取excel文件报错：raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported'). 
+这是因为xlrd的高版本跟pandas里的支持不对应导致的，通过以下命令降低版本即可： 
+pip install xlrd==1.2.0 boto3
