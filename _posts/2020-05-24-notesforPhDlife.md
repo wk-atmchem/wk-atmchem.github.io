@@ -2,7 +2,7 @@
 layout:     post
 title:      读博日记
 subtitle:   daily notes for research progress
-date:       2020-11-28
+date:       2021-1-4
 author:     Kai Wu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
@@ -47,3 +47,24 @@ From Christian Hogrefe (US EPA), any CMAQ version other than CMAQv5.3 does not r
 1.Python利用xlrd读取excel文件报错：raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported'). 
 这是因为xlrd的高版本跟pandas里的支持不对应导致的，通过以下命令降低版本即可： 
 pip install xlrd==1.2.0 boto3
+
+# 2021.1.4
+1.当FNL数据因为垂直层更新而导致无法完成连续模拟的时候，可采取如下解决办法： 
+利用WPS/util目录下的mod_levs.exe程序可以将ungrib出的中间文件移除某些垂直层次使之一致。具体做法是在namelist.wps中添加： 
+&mod_levs 
+press_pa = 201300 , 200100 , 100000 , 
+             95000 ,  90000 , 
+             85000 ,  80000 , 
+             75000 ,  70000 , 
+             65000 ,  60000 , 
+             55000 ,  50000 , 
+             45000 ,  40000 , 
+             35000 ,  30000 , 
+             25000 ,  20000 , 
+             15000 ,  10000 , 
+              5000 ,   1000 
+/ 
+press_pa就是你想保留的垂直层次（其余的层次会被移除） 
+然后链接mod_levs.exe到wps目录下，运行： 
+./mod_levs.exe FILE:2016-05-11_18 new_FILE:2016-05-11_18 
+再修改&metgrid中fg_name='new_FILE'即可。 
