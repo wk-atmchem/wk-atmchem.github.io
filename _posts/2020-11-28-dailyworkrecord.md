@@ -39,3 +39,9 @@ tags:
 
 # 2020.12.23
 1.干货 | 关于“增长”的14种表达https://zhuanlan.zhihu.com/p/24489432 
+
+# 2021.1.12
+1.阅读"2005–2017 ozone trends and potential benefits of local measures as deduced from air quality measurements in the north of the Barcelona metropolitan area"，考虑如何深挖环境监测数据并改进EP文章当中观测部分内容的分析
+2.在HPC3上安装mozart2camx的更新版，处理CAM-Chem的测试，并反馈给Mike和朱博
+3.构思refinery文章的框架和思路  发给Mike
+4.完成EP文章的模式模拟
