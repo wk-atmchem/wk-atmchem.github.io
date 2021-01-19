@@ -1,47 +1,34 @@
 ---
 layout:     post
-title:      博士期间每日工作纪要
-subtitle:   daily notes for work record
-date:       2020-11-28
+title:      ESTA tool notes
+subtitle:   Emissions Spatial and Temporal Allocator
+date:       2021-01-18
 author:     Kai Wu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - satellite
+    - Emission Inventory
     - models
 ---
 
-# 2020.11.28
-1.完成了2012年6月加州的MEGANv2.1的计算，有待画图分析和对比  
-2.阅读了UCLA的空气污染与气候变化协同治理报告Coordinated-Governance-Chinese-8-2020-v2的前2个章节，refresh了对加州空气质量管控的认识  
-3.完成了太湖上针对北美区域的MEGANv2.1的Prep的install，路径为：
-/GFPS8p/xyyang/wk/meganwk/MEGANv2.10/prepmegan4cmaq_2014-06-02
+# 2021.01.18
+Emissions Spatial and Temporal Allocator (ESTA)由加州空气资源管理局开发，是一个基于python的排放清单处理工具。
+尽管其设计目的为处理所有排放清单，但目前其仅支持onroad-emission的处理。
 
-# 2020.11.29
-1.调试完成了利用ISAM计算MEIC当中5类排放源分别对臭氧的影响  
-(/GFPS8p/xyyang/wk/CMAQ-5.3.2/CCTM/scripts/run_cctm_SCB_ISAM_MEICtag.csh)  
-注意多个面源文件的EMIS_LABEL不可以简单写为AGR,TRA,IND等  
-2.从华电曹靖原处获取了正确的ISAM的四川盆地的mask文件  
+目前支持EMFAC2017 emission的读取和处理，并可选择是否输出柴油机的PM排放.
+NH3_data_EF17目录中包含了几年的NH3排放文件，用户可以将NH3排放文件的具体年份追加到EMFAC2017排放文件中。
+将NH3排放文件追加到EMFAC2017排放文件的脚本提供在EF17_format_ld和EF17_format_hd目录下。当前版本的NH3清单是MPO009。
 
-# 2020.11.30
-1.华电曹靖原给的ISAM的mask文件有问题——报错显示Fortran string too short,后来写了NCL脚本通过将该文件的变量值替换到原来我制作的有偏移的文件中，成功制作了正确的mask文件，为后续溯源工作的开展奠定了基础  
-2.ArcGIS当中如果需要修改属性表，需注意如下步骤：  
-首先，要添加列，可直接左上角添加，注意双精度，10位数  
-其次，要修改属性表的值，需要在GIS正上方找到编辑器，开启编辑器模式，进入属性表方可进行修改，否则属性表无法修改  
+ESTA是基于Python2.7的代码。
 
-# 2020.12.18
-1.完成四川盆地2020年持续臭氧污染机制的文章并准备投稿到STE——完成 
+用于测试的样例数据给定的是：
+EMFAC2017当中的Light-Duty vehicles和Heavy-Duty vehicles
 
-# 2020.12.19
-1.寻找南加州空气盆地的空气质量观测网的演变的相关数据——从EPA AQS network以及其他渠道寻找信息 
-2.去看UCR的Ivey老师的文章，继续了解SoCAB的臭氧污染的研究现状 
-3.到HPC3上开始全年的CMAQ模拟 注意需要自行进行MCIP处理以及日期转换 
+ARB uses both diurnal and day-of-week temporal profiles from the California Vehicle Activity Database (CalVAD). 
 
-# 2020.12.23
-1.干货 | 关于“增长”的14种表达https://zhuanlan.zhihu.com/p/24489432 
 
-# 2021.1.12
-1.阅读"2005–2017 ozone trends and potential benefits of local measures as deduced from air quality measurements in the north of the Barcelona metropolitan area"，考虑如何深挖环境监测数据并改进EP文章当中观测部分内容的分析
-2.在HPC3上安装mozart2camx的更新版，处理CAM-Chem的测试，并反馈给Mike和朱博
-3.构思refinery文章的框架和思路  发给Mike
-4.完成EP文章的模式模拟
+All of the provided example config files are set up for the same Wednesday in the summer of 2017:
+
+执行python preprocess_grid_boxes.py -gridcro2d GRIDCRO2D.California_4km_270x297 -rows 270 -cols 297  -regions california_counties_lat_lon_bounding_boxes.csv
+生成的county信息会打印到屏幕上，然后将其粘贴到空白的py文件中，并保存
+/dfs5/apep/wuk15/ESTA/input/defaults/domains/county_boxes_ca_4km.py
