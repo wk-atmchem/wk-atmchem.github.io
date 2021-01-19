@@ -70,3 +70,9 @@ press_pa就是你想保留的垂直层次（其余的层次会被移除）
 然后链接mod_levs.exe到wps目录下，运行： 
 ./mod_levs.exe FILE:2016-05-11_18 new_FILE:2016-05-11_18 
 再修改&metgrid中fg_name='new_FILE'即可。 
+
+
+# 2021.1.20
+1.Linux下find命令的使用 
+find path -name filename 
+find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00 
