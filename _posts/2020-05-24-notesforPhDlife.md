@@ -74,5 +74,5 @@ press_pa就是你想保留的垂直层次（其余的层次会被移除）
 
 # 2021.1.20
 1.Linux下find命令的使用 
-find path -name filename 
+模板：find path -name filename 
 find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00 
