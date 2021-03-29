@@ -75,4 +75,8 @@ press_pa就是你想保留的垂直层次（其余的层次会被移除）
 # 2021.1.20
 1.Linux下find命令的使用 
 模板：find path -name filename 
-find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00 
+find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00  
+
+# 2021.3.29
+1.利用CDO裁剪nc文件里的区域  
+cdo sellonlatbox,60,160,0,60 IASI_NH3_9yr_AM.nc china.nc  
