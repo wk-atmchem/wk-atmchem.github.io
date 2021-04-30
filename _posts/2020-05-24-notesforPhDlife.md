@@ -80,3 +80,8 @@ find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00
 # 2021.3.29
 1.利用CDO裁剪nc文件里的区域  
 cdo sellonlatbox,60,160,0,60 IASI_NH3_9yr_AM.nc china.nc  
+
+# 2021.1.20
+1.关于CMAQ中的SOA yield的解释： 
+SOA yields vary as a function of time of day because the chemical pathways leading to SOA vary during the day. See the schematic from the v5.3 release notes for a summary of pathways in CMAQ: CMAQ/aero7_overview.md at master · USEPA/CMAQ · GitHub. All those pathways are active at all times of day to varying degrees. You can find the manuscripts documenting SOA development here: https://www.epa.gov/cmaq/how-cite-cmaq#Particle_Microphysics_and_Chemistry. Many of the development papers include plots of typical diurnal variation for each system. 
+
