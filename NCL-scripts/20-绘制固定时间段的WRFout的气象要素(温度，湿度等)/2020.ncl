@@ -62,8 +62,8 @@ begin
   res@cnMinLevelValF      =  0                ; set min contour level
   res@cnMaxLevelValF      =  28.0              ; set max contour level
   res@cnLevelSpacingF     =  0.2             ; set contour spacing
-  res@cnInfoLabelOn       = True              ; displays informational label
-  res@cnInfoLabelString   = "Max:"+sprintf("%3.1f",max(xab1))+"  Min:"+sprintf("%3.1f",min(xab1))+"  Mean: "+sprintf("%3.1f",avg(xab1))
+;  res@cnInfoLabelOn       = True              ; displays informational label
+;  res@cnInfoLabelString   = "Max:"+sprintf("%3.1f",max(xab1))+"  Min:"+sprintf("%3.1f",min(xab1))+"  Mean: "+sprintf("%3.1f",avg(xab1))
 ;  res@gsnLeftString = "(c) May 6th"
   res@lbBoxSeparatorLinesOn = False
   res@pmTickMarkDisplayMode = "Always"         ; turn on tickmarks
@@ -77,7 +77,7 @@ begin
   plres             = True           ; resource list for polylines
   plres@gsLineColor = "black"
   plres@gsLineThicknessF =2.0 
-  id = gsn_add_shapefile_polylines(wks,plot,"/GFPS8p/xyyang/wk/ncljq/shp/scbasin.shp",plres)
+  id = gsn_add_shapefile_polylines(wks,plot,"/GFPS8p/xyyang/wk/ncljq/shp/province.shp",plres)
 
   draw(plot)   ; This will draw attached polylines and map
   frame(wks)   ; Advanced frame.
