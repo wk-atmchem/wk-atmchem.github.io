@@ -11,6 +11,22 @@ tags:
 ---
 
 # Summary of WRF bugs and solutions 
+
+### [WPS Errors: Ungrib.exe Segmentation Fault]
+When running Ungrib.exe crashes at the ungribbing process at the end date, giving error message: "Segmentation fault ..."  
+Causes:  
+Probably, it has something with computer memory, because when I set ulimit to unlimited, the problem was solved.
+Solution:  
+ulimit -s unlimited  
+
+### [WPS Errors: Metgrid.exe error in ext_pkg_write_field]
+Symptoms:
+Metgrid.exe crashes at the beginning of the process with messages: 'ERROR: Error in ext_pkg_write_field'.  
+Causes:  
+This will happen when new NCEP GFS data (Version 15.1 or higher) was process using old version of ungrib.exe (< Ver. 4).  
+Solution:  
+Install Ungrib from WPS Ver.4. (the old geogrid/metgrid still could be used).  
+
 ### [WRF Errors: WARNING: Field XXX has missing values]
 
 When running metgrid.exe, I encountered the following error:
@@ -51,17 +67,25 @@ The Solutions:
 Change the value of 'surface_input_source' on &physics parameter of namelist.input from '3' to '1'  
 在namelist的&physics部分加上一句surface_input_source = 1, 即可解决  
 
-### [WPS Errors: Ungrib.exe Segmentation Fault]
-When running Ungrib.exe crashes at the ungribbing process at the end date, giving error message: "Segmentation fault ..."  
+### [WRF Errors: WRF Simulation Sudden Death]
+Symptoms:  
+Model crashed. Real.exe and Wrf.exe are abruptly stopped, without any error messages in log files. It just stop.  
 Causes:  
-Probably, it has something with computer memory, because when I set ulimit to unlimited, the problem was solved.
-Solution:  
-ulimit -s unlimited  
+I hate this error because it might caused by many factors, but mostly because of the conflicts within the model configuration. For example, I was using WSM-3 MP parameterization schemes, with RRTM schemes for LW and SW, with domain over high latitude and complex terrain, 10 km resolution, using several computation nodes, then many strange things happened: the model crashed many times, could only stable while running on single node, etc.  
+On several cases, it's also caused by too large time-step similar with CFL error.  
+Sometimes, it also occurs if the domain is too large, in particular when grid size < 10 km with complex terrain.  
+Solutions:  
+1.Change the model configuration. For my case, I used Lin MP scheme with new RRTM schemes, and the error was gone.  
+2.Reduce the time-step in the factor of 2 (half of time-step first, if still not works, try 0.25 of the original time-step, and so on).  
+3.Reduce the domain size.  
 
-### [WPS Errors: Metgrid.exe error in ext_pkg_write_field]
-Symptoms:
-Metgrid.exe crashes at the beginning of the process with messages: 'ERROR: Error in ext_pkg_write_field'.  
+### [WRF Errors: WRF Simulation Sudden Death]
+Symptoms: 
+WRF generates messages such as : "x points exceeded cfl=x in domain d0x at time ..."  
+Simulation speed degrades or simulation completely stops.  
 Causes:  
-This will happen when new NCEP GFS data (Version 15.1 or higher) was process using old version of ungrib.exe (< Ver. 4).  
-Solution:  
-Install Ungrib from WPS Ver.4. (the old geogrid/metgrid still could be used).  
+Model becomes unstable, mostly because the time-step used is too large for stable solution, especially while using high-res simulation grids.  
+Conflicts among model physics/dynamics/domains configuration.  
+Solutions:  
+Decrease the time-step (namelist.input > &domain > time_step).  The most common used convention is 6*DX in kilometers. That means, if the grid resolution is 10 km, then use at least 60 seconds time step. If the messages still appear, decrease the time step to 30 or 10 seconds.  
+Check the parameterization/configuration used in namelist.input which could potentially cause conflicts or model crash. I usually discard some parameterization schemes, and check them individually to see if I they are the causes of the crash.  
