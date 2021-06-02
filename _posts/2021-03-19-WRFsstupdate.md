@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      更新WRF里的SST
-subtitle:   daily notes for research progress
+subtitle:   WRFsst update
 date:       2021-3-19
 author:     Kai Wu
 header-img: img/post-bg-ios9-web.jpg
