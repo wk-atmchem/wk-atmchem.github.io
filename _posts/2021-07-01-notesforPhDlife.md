@@ -2,7 +2,7 @@
 layout:     post
 title:      读博日记
 subtitle:   daily notes for research progress
-date:       2021-1-4
+date:       2021-7-2
 author:     Kai Wu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
@@ -69,7 +69,7 @@ press_pa = 201300 , 200100 , 100000 ,
 press_pa就是你想保留的垂直层次（其余的层次会被移除） 
 然后链接mod_levs.exe到wps目录下，运行： 
 ./mod_levs.exe FILE:2016-05-11_18 new_FILE:2016-05-11_18 
-再修改&metgrid中fg_name='new_FILE'即可。 
+再修改&metgrid中fg_name='new_FILE'即可。  
 
 
 # 2021.1.20
@@ -82,6 +82,23 @@ find /GFPS8p/xyyang/wk -name wrfout_d02_2012-04-30_00:00:00
 cdo sellonlatbox,60,160,0,60 IASI_NH3_9yr_AM.nc china.nc  
 
 # 2021.1.20
-1.关于CMAQ中的SOA yield的解释： 
+1.关于CMAQ中的SOA yield的解释：  
 SOA yields vary as a function of time of day because the chemical pathways leading to SOA vary during the day. See the schematic from the v5.3 release notes for a summary of pathways in CMAQ: CMAQ/aero7_overview.md at master · USEPA/CMAQ · GitHub. All those pathways are active at all times of day to varying degrees. You can find the manuscripts documenting SOA development here: https://www.epa.gov/cmaq/how-cite-cmaq#Particle_Microphysics_and_Chemistry. Many of the development papers include plots of typical diurnal variation for each system. 
 
+# 2021.7.1
+1.关于RCP8.5情景的详细表述  
+To answer the question of how much temperatures in US cities will change by 2050, we looked at the average summer high and winter low temperatures in 1,000 cities in the continental US, comparing recorded and modeled temperatures from 1986 to 2015 to projections for 2036 to 2065. This offers us the best possible estimate on how much winters and summers will shift from 2000 to 2050.  
+
+With help from researchers at NASA’s Jet Propulsion Laboratory and the Scripps Institution of Oceanography, we built our analysis on the Localized Constructed Analogs data set, which draws on 32 different global climate models. The scenario we examined is known as Representative Concentration Pathway (RCP) 8.5, one standardized set of assumptions of humanity’s trajectory in the coming years.  
+
+RCP 8.5 presumes that the world will continue increasing energy use at the same rate and in the same forms. It predicts the world will have warmed on average by 2°C, or 3.6°F, by roughly 2040.  
+
+There are very legitimate criticisms of RCP 8.5 — that it’s too pessimistic, ignores progress we’ve already made on decarbonization, and majorly overestimates how much coal we’ll burn. But two climate scientists we spoke to, Sarah Perkins-Kirkpatrick at the University of New South Wales, and Kate Marvel at the NASA Goddard Institute for Space Studies, argued it was a realistic scenario for now.  
+
+Scientists have also examined the future of the global climate presuming the world takes moderate to aggressive action to curb greenhouse gas emissions. But emissions over the past 10 years track reasonably well with RCP 8.5, so it’s a useful marker, establishing the boundaries of the worst-case scenario for the climate.  
+
+We averaged annual temperature and rainfall patterns for 30 years (1986-2015) to establish a climate baseline for cities. This average helps eliminate year-to-year variations in the climate like El Niño cycles, isolating the changes wrought by human activity. We then examined how these cities would warm by 2050, again averaging over 30 years (2036-2065). We limited our focus to the contiguous United States, where we had the best data and the most relevant cities for comparison. (Sorry, Alaska and Hawaii.)  
+
+There are some other caveats to this analysis. Temperature and precipitation are just two variables out of dozens that define a climate, so there will be many other shifts, including frequency and severity of extreme weather, that matter to people’s day-to-day lives. “The timing and total rainfall of the rainy season really matter for agriculture,” said Marvel. “What matters for city dwellers is the increase in precipitation extremes.”  
+
+The climate data used here is also a global projection that’s been downscaled, so some precision is lost when looking at smaller sections of the planet, like cities.  
