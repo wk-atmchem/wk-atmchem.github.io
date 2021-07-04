@@ -102,3 +102,12 @@ We averaged annual temperature and rainfall patterns for 30 years (1986-2015) to
 There are some other caveats to this analysis. Temperature and precipitation are just two variables out of dozens that define a climate, so there will be many other shifts, including frequency and severity of extreme weather, that matter to people’s day-to-day lives. “The timing and total rainfall of the rainy season really matter for agriculture,” said Marvel. “What matters for city dwellers is the increase in precipitation extremes.”  
 
 The climate data used here is also a global projection that’s been downscaled, so some precision is lost when looking at smaller sections of the planet, like cities.  
+
+# 2021.7.3
+1.Linux下rename命令的使用 
+假设在路径C:/下存在多个类似以下的文件名：  
+file_nall_abc1.txt		file_nall_abc2.txt		file_nall_abc3.txt		file_nall_abc4.txt
+现批量去除文件名中的字符串“all”，变成如下形式：  
+file_n_abc1.txt		file_n_abc2.txt		file_n_abc3.txt		file_n_abc4.txt
+只需要用到rename命令，命令行如下：  
+rename all_a _a file_nall_abc*.txt  
