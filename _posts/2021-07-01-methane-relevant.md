@@ -53,9 +53,21 @@ https://avirisng.jpl.nasa.gov/greenhouse_gas_mapping.html
 
 2.CARB的甲烷合作相关
 
+https://ww2.arb.ca.gov/our-work/programs/methane/ab1496-research
+
+https://ww2.arb.ca.gov/our-work/programs/methane-research
+
 https://ww2.arb.ca.gov/our-work/programs/methane/collaborations
 
-3.CARB的AGU摘要
+3.CABR-加州的甲烷super emitter
+
+https://climate.nasa.gov/news/2930/a-third-of-california-methane-traced-to-a-few-super-emitters/
+
+4.加州的甲烷相关环境法
+
+https://www.law.berkeley.edu/wp-content/uploads/2019/11/Fact-Sheet-Methane.pdf
+
+5.CARB的AGU摘要
 
 #### Overview of California's Efforts to Understand and Reduce Methane Sources
 
