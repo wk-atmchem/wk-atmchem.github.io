@@ -50,3 +50,13 @@ A recent analysis of satellite data conducted by scientists from National Aerona
 1.AVIRIS相关文献
 
 https://avirisng.jpl.nasa.gov/greenhouse_gas_mapping.html
+
+2.CARB的甲烷合作相关
+
+https://ww2.arb.ca.gov/our-work/programs/methane/collaborations
+
+3.CARB的AGU摘要
+
+#### Overview of California's Efforts to Understand and Reduce Methane Sources
+
+Methane is an important short-lived climate pollutant (SLCP) and also has significant health implications as a tropospheric ozone precursor. As part of a comprehensive effort to reduce greenhouse gas (GHG) emissions overall by 40% from 1990 levels by 2030, California has proposed an SLCP Strategy that includes a 40% reduction of methane emissions from 2013 levels by 2030, with goals to reduce oil and gas related emissions and capture methane emissions from dairy operations and organic waste. A recent analysis of satellite data found a large methane "hot spot" over the Central Valley in California, likely the second largest over the entire U.S. In light of this finding, the California legislature passed Assembly Bill 1496 in 2015, which requires the California Air Resources Board (CARB) to undertake measurements to understand the sources of methane hot spots, evaluate life-cycle emissions from natural gas imported into California, and update relevant policies and programs. There is growing evidence in the recent scientific literature suggesting that a small fraction of methane sources within a category emit disproportionately higher emissions than their counterparts, usually referred to as "super emitters". As such, controlling these sources may provide a lower cost opportunity for methane reductions needed to meet near- and long-term climate goals. In order to achieve a comprehensive understanding of sources contributing to "hot spots", CARB, the California Energy Commission, and NASA's Jet Propulsion Laboratory are implementing a large-scale statewide methane survey using a tiered monitoring and measurement program, which will include airborne and ground-level measurements of the various regions and source sectors in the State. This presentation will discuss research and program implementation efforts to evaluate and mitigate methane super emitters and hot spots. These efforts are expected to improve our understanding of methane emission source distributions, improve the estimate of the overall magnitude of anthropogenic methane emissions in California, and inform and improve the effectiveness of methane reduction policies and programs.
